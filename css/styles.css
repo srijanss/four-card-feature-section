@@ -128,6 +128,7 @@ main {
   }
 
   @mixin media-query-desktop {
+    margin-top: 64px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas:
       "supervisor team-builder calculator"
