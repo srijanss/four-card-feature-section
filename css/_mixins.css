@@ -1,0 +1,9 @@
+@define-mixin media-query-desktop {
+  @media (min-width: 1120px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin full-width {
+  width: 100%;
+}
