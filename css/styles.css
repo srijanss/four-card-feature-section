@@ -28,6 +28,11 @@ body {
   color: var(--very-dark-blue);
 }
 
+main {
+  width: 100%;
+  font-size: 0.9375rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
