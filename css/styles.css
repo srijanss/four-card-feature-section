@@ -143,7 +143,6 @@ main {
       }
       &:nth-child(2) {
         grid-area: team-builder;
-        grid-row: 1;
       }
       &:nth-child(3) {
         grid-area: karma;
