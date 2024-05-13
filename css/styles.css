@@ -1,0 +1,38 @@
+@reset-global mobile;
+
+:root {
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  --very-dark-blue: hsl(234, 12%, 34%);
+  --grayish-blue: hsl(229, 6%, 66%);
+  --very-light-gray: hsl(0, 0%, 98%);
+  --primary-font: "Poppins", sans-serif;
+  --default-font-size: 16px;
+  --font-weight-light: 200;
+  --font-weight-regular: 400;
+  --font-weight-semi-bold: 600;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--primary-font);
+  font-size: var(--default-font-size);
+  background-color: var(--very-light-gray);
+  color: var(--very-dark-blue);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding: 1rem 0;
+  & a {
+    color: hsl(228, 45%, 44%);
+  }
+}
